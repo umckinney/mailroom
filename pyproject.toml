@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mailroom"
+version = "0.0.1"
+authors = [
+  { name="Uriah Efe McKinney", email="uriah.mckinney@gmail.com" },
+]
+description = "Packaged version of my mailroom program"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.scripts]
+main = "mailroom.mailroom_controller:main"
+
+[project.urls]
+Homepage = "blah"
+Issues = "blah"
